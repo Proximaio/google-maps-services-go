@@ -24,9 +24,9 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/Proximaio/google-maps-services-go/internal"
 	"golang.org/x/net/context"
 	"golang.org/x/net/context/ctxhttp"
-	"googlemaps.github.io/maps/internal"
 )
 
 // Client may be used to make requests to the Google Maps WebService APIs

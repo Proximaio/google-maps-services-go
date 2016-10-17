@@ -1,5 +1,5 @@
 language: go
-go_import_path: googlemaps.github.io/maps
+go_import_path: github.com/Proximaio/google-maps-services-go
 
 # See https://github.com/travis-ci/gimme/blob/master/.known-binary-versions-linux for known golang versions
 go:

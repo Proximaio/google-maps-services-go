@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/Proximaio/google-maps-services-go"
 	"github.com/kr/pretty"
 	"golang.org/x/net/context"
-	"googlemaps.github.io/maps"
 )
 
 var (
