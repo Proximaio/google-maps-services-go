@@ -34,7 +34,7 @@ func generateSignature(key []byte, message string) (string, error) {
 // The returned signature string is URLEncoded.
 // See: https://developers.google.com/maps/documentation/business/webservices/auth#digital_signatures
 func SignURL(path, clientID string, signature []byte, q url.Values) (string, error) {
-	q.Set("client", clientID)
+	q.Set("key", clientID)
 	encodedQuery := q.Encode()
 	message := fmt.Sprintf("%s?%s", path, encodedQuery)
 	s, err := generateSignature(signature, message)
